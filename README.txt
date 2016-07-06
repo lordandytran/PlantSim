@@ -18,9 +18,9 @@ Instructions for development:
  - Maybe someone can create a MySQL database on their UW account that we can use
  - Then use the JDBC to integrate it into our webapp
  - I've created an example webpage, so you guys can see how things work
- - The framework uses the @MangedBean to represent frontend elements, so create a unique name identifier for each class as well as getter for each field.
+ - The framework uses the @ManagedBean to represent frontend elements, so create a unique name identifier for each class as well as getters for each field.
  - index.xhtml is the main webpage
- - Frontend elements can be represented by #{uniquename.getterName} in the html
+ - Frontend elements can be represented by #{uniquename.fieldName} in the html
 
 
 Frontend observations:
