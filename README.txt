@@ -19,6 +19,7 @@ Instructions for development:
  - Then use the JDBC to integrate it into our webapp
  - I've created an example webpage, so you guys can see how things work
  - The framework uses the @ManagedBean to represent frontend elements, so create a unique name identifier for each class as well as getters for each field.
+ - Classes are lazily instantiated, so the server will create a class when the page runs code that asks for it. To instantiate a class when the server runs, use @eager with the @ManagedBean 
  - index.xhtml is the main webpage
  - Frontend elements can be represented by #{uniquename.fieldName} in the html
 
