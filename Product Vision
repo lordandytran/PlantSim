@@ -1,0 +1,9 @@
+Product Vision
+
+-An application that uses a database to track and record the simulated growth of a plant that’s based on a real one.
+
+-The database tracks the current weather location, the optimal growth of the plant, and the actual growth of the plant
+
+-To forward growth the end user needs to water the plant based on the type.
+
+-The goal is to teach the end user how to care for a certain real-life plant, while also taking into consideration the location, which is more of a dynamic factor.
