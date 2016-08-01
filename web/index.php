@@ -24,6 +24,8 @@
 	<script src="jquery-1.12.4.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<!-- uses googles jquery -->
+	<!-- Here is the stylesheet -->
+	<link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
 </head>
 	<body>
 		<!-- using this to add quick facts -->
