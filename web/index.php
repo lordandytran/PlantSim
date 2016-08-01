@@ -20,16 +20,29 @@
 	<script src="jquery-1.12.4.min.js"></script>
 </head>
 	<body>
-		<div class = 'fwrapper'>
-		<!-- Animation from http://codepen.io/maxakohler/pen/ltFyG -->
-		<div class='flower flower-0'><span></span></div>
-		<div class='flower flower-1'><span></span></div>
-		<div class='flower flower-2'><span></span></div>
-		<div class='flower flower-3'><span></span></div>
-		<div class='flower flower-4'><span></span></div>
-		<div class='flower flower-5'><span></span></div>
-		<div class='flower flower-6'><span></span></div>
+		<!-- using this to add quick facts -->
+		<div id="Plant-segments">
+			<h3>Plant Animation</h3>
+			<div class = 'fwrapper'>
+			<!-- Animation from http://codepen.io/maxakohler/pen/ltFyG -->
+				<div class='flower flower-0'><span></span></div>
+				<div class='flower flower-1'><span></span></div>
+				<div class='flower flower-2'><span></span></div>
+				<div class='flower flower-3'><span></span></div>
+				<div class='flower flower-4'><span></span></div>
+				<div class='flower flower-5'><span></span></div>
+				<div class='flower flower-6'><span></span></div>
+			</div>
+			<h3>Plant DB</h3>
+			<div>
+				<p>Put the information from the DB here!</p>
+			</div>
+			<h3>Copyright informaiton</h3>
+			<div>
+				<p>Copyright this!</p>
+			</div>
 		</div>
+		
 	</body>    
 </html>
 
