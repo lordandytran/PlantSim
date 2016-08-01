@@ -22,6 +22,8 @@
 	
 	<!-- Adding the link to use jquery -->
 	<script src="jquery-1.12.4.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<!-- uses googles jquery -->
 </head>
 	<body>
 		<!-- using this to add quick facts -->
