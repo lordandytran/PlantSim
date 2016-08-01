@@ -21,7 +21,7 @@
 	<script type="text/javascript" src="webPage.js"></script>
 	
 	<!-- Adding the link to use jquery -->
-	<script src="jquery-1.12.4.min.js"></script>
+	<script src="jquery-3.1.0.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<!-- uses googles jquery -->
 	<!-- Here is the stylesheet -->
