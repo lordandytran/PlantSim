@@ -16,6 +16,10 @@
 <head>
 	<title>Plant Simulator</title>
 	<link rel="stylesheet" type="text/css" href="https://students.washington.edu/lordandy/css/style.css">
+	
+	<!-- Link to the javascript file -->
+	<script type="text/javascript" src="webPage.js"></script>
+	
 	<!-- Adding the link to use jquery -->
 	<script src="jquery-1.12.4.min.js"></script>
 </head>
