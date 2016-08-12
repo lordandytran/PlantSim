@@ -3,9 +3,10 @@
 }
 
 #topContainer {
-    background-image: url("./background.jpg");
+    background-image: url("../images/flowers2.jpg");
     width: 100%;
     background-size: cover;
+    background-position: center;
 }
 
 #topRow {
@@ -17,17 +18,21 @@
     font-size: 300%;
 }
 
-#reg {
+.lead {
     color: #fff;
     text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
 }
 
 .bold {
     font-weight: bold;
+    color: #fff;
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
 }
 
 .marginTop {
-    margin-top: 30px;
+    margin-top: 250px;
+    color: #fff;
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
 }
 
 .center {
@@ -39,16 +44,15 @@
     font-size: 300%;
 }
 
-#footer {
-    background-color: #AEEEEE;
-    width: 100%;
-    padding-top: 70px;
+.white {
+    color: white;
 }
 
-.marginBottom {
-    margin-bottom: 10px;
+.left {
+    text-align: left;
 }
 
-.appstoreimage {
-    width: 250px;
+p {
+    color: white;
+    font-size: 1.5em;
 }
