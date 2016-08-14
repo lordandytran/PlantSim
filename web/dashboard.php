@@ -1,17 +1,22 @@
 <?php
 	include('connection.php');
 	session_start();
-	$login_check = $_SESSION['username'];
+	$user_check = $_SESSION['username'];
 
-	$sql = mysqli_query($db, "SELECT username FROM users WHERE username='$login_check'");
+	$ses_sql = mysqli_query($db, "SELECT username FROM users WHERE username = '$user_check' ");
 
-	$row = mysqli_fetch_array($sql, MYSQLI_ASSOC);
+	$row = mysqli_fetch_array($ses_sql, MYSQLI_ASSOC);
 
 	$login_user = $row['username'];
 
-	if(!isset($login_check)) {
-		header("Location: http://localhost/dbproj/index.php");
+	if(!isset($user_check)) {
+		header("Location: index.php");
 	}
+
+	$name = mysqli_query($db, "SELECT fullname FROM users WHERE username = '$login_user' ");
+	$row_2 = mysqli_fetch_array($name, MYSQLI_ASSOC);
+	$my_name = $row_2['fullname'];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +47,9 @@
 					<li><a href="#footer">Plant Database</a></li>
 				</ul>
 				<form class="navbar-form navbar-right" method="get" action="logout.php">
+					<?php
+						echo "Welcome back, $my_name!"
+					?>
 					<button type="submit" class="btn btn-success">Logout</button>
 				</form>
 			</div>
